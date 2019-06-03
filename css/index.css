@@ -383,3 +383,15 @@ footer nav a {
     align-items: center;
     justify-content: center;
 }
+
+
+
+/* tablets */
+@media (max-width: 800px) {
+
+}
+/* phones */
+@media (max-width: 500px) {
+
+
+}
