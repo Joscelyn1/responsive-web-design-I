@@ -260,8 +260,23 @@ li {
 @media (max-width: 800px) {
     .firstRow {
         flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .firstRowNav {
+        justify-content: center;
+
     }
     .firstRowColumn2 {
+        justify-content: center;
+    }
+
+    .imageRowColumn2 {
+        display: none;
+    }
+
+    .imageRowColumn1 {
+        width: 98%;
         justify-content: center;
     }
 }
