@@ -225,14 +225,14 @@ li {
 }
 
 .middleSectionRow3Column1 {
-    width: 33%;
+    width: 50%;
     display: flex;
     flex-direction: column;
 
 }
 
 .middleSectionRow3Column2 {
-    width: 33%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     padding-left: 1%;
@@ -240,14 +240,7 @@ li {
 
 }
 
-.middleSectionRow3Column3 {
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    padding-left: 1%;
 
-
-}
 
 .lastSection {
     margin-top: 5%;
@@ -268,14 +261,21 @@ li {
     padding-top: 100px;
 }
 
-
+button {
+    margin-top: 2%;
+    color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    height: 30px;
+}
 
 /* tablets */
 @media (max-width: 800px) {
 
     button {
-        padding-bottom: 4%;
-        padding-top: 4%;
+        width: 75px;
+        height: 25px;
+        font-size: 50%;
     }
 
     .services-header-img {
