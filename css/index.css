@@ -282,6 +282,32 @@ li {
 }
 /* phones */
 @media (max-width: 500px) {
+    .firstRow {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .firstRowNav {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        color: gray;
+
+    }
+
+    li {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        color: gray;
+    }
+    .firstLi {
+        border-top: 1px solid gray;
+        margin-top: 4%;
+    }
 
 
 }
