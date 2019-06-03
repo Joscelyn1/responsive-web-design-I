@@ -258,7 +258,12 @@ li {
 
 /* tablets */
 @media (max-width: 800px) {
-
+    .firstRow {
+        flex-direction: column-reverse;
+    }
+    .firstRowColumn2 {
+        justify-content: center;
+    }
 }
 /* phones */
 @media (max-width: 500px) {
