@@ -251,7 +251,25 @@ li {
     padding-left: 1%;
 }
 
+.servicesMiddleSectionRow3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
+.servicesMiddleSectionRow3Column1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;   
+}
+
+
+.servicesMiddleSectionRow3Column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;   
+}
 
 .lastSection {
     margin-top: 5%;
