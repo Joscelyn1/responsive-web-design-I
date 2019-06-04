@@ -214,6 +214,7 @@ li {
     width: 99%;
     display: flex;
     padding-bottom: 5%;
+    justify-content: center;
 }
 
 .middleSectionRow2Column1 {
@@ -233,7 +234,8 @@ li {
 }
 
 .middle-img {
-    width: 100%;
+    width: 876px;
+    justify-content: center;
 }
 
 .middleSectionRow3 {
@@ -341,6 +343,7 @@ button {
         justify-content: center;
     }
 
+
     .imageRowColumn2 {
         display: none;
     }
@@ -348,6 +351,10 @@ button {
     .imageRowColumn1 {
         width: 98%;
         justify-content: center;
+    }
+
+    .middle-img {
+        width: 80%;
     }
 }
 /* phones */
