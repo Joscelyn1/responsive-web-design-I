@@ -77,6 +77,14 @@ a {
     text-decoration: none;
 }
 
+button {
+    margin-top: 2%;
+    color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    height: 30px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -84,6 +92,12 @@ ul {
 
 li {
     padding: 4%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+
 }
 
 
@@ -306,19 +320,20 @@ li {
 
 }
 
+.companyFacts {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    margin-left: 3%;
+}
+
 .copyright {
     text-align: center;
     color: gray;
     padding-top: 100px;
 }
 
-button {
-    margin-top: 2%;
-    color: gray;
-    border: 2px solid gray;
-    width: 100px;
-    height: 30px;
-}
+
 
 /* tablets */
 @media (max-width: 800px) {
@@ -358,6 +373,10 @@ button {
     .middle-img {
         width: 80%;
     }
+    .companyFacts {
+
+        margin-left: 8%;
+    }
 }
 /* phones */
 @media (max-width: 500px) {
@@ -378,14 +397,18 @@ button {
     ul {
         flex-direction: column;
         justify-content: center;
-        color: gray;
+  
 
     }
 
-    li {
+    nav ul li {
         border-bottom: 1px solid gray;
         text-align: center;
         color: gray;
+    }
+
+    footer {
+        flex-direction: column;
     }
     .firstLi {
         border-top: 1px solid gray;
@@ -453,5 +476,30 @@ button {
         margin-top: 4%;
         margin-bottom: 4%;
     }
+
+    .servicesMiddleSectionRow3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+ 
+    }
+
+    .servicesMiddleSectionRow3Column1 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+       
+    }
+    
+    
+    .servicesMiddleSectionRow3Column2 {
+
+        flex-direction: column;   
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
 
 }
