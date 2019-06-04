@@ -195,6 +195,7 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-right: 2% 
 
 }
 
@@ -207,14 +208,28 @@ li {
 
 }
 
-.middleSectionRow1Column3 {
-    
-}
+
 
 .middleSectionRow2 {
     width: 99%;
     display: flex;
     padding-bottom: 5%;
+}
+
+.middleSectionRow2Column1 {
+    margin-right: 2%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.middleSectionRow2Column2 {
+    margin-right: 2%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    
 }
 
 .middle-img {
@@ -232,6 +247,7 @@ li {
     width: 33%;
     display: flex;
     flex-direction: column;
+    margin-right: 2% 
 
 }
 
@@ -240,6 +256,7 @@ li {
     display: flex;
     flex-direction: column;
     padding-left: 1%;
+    margin-right: 2% 
 
 
 }
@@ -261,7 +278,8 @@ li {
 .servicesMiddleSectionRow3Column1 {
     width: 50%;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
+    margin-right: 2%   
 }
 
 
