@@ -1,3 +1,505 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+    width: 90%;
+    margin: auto;
+}
 
 
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 2%;
+    color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 4%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.firstRow {
+    width: 99%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.firstRowNav {
+    width: 75%;
+    color: gray;
+
+}
+
+.firstRowColumn2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.firstRowPicture {
+    margin-bottom: auto;
+    margin-top: auto;
+
+
+
+}
+
+.secondRow {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.services-header-img {
+    width: 880px;
+}
+
+
+.imageRow {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.imageRowColumn1 {
+    width: 48%;
+
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.innovationOnDemand {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50pt;
+    padding-right: 5%;
+    word-spacing: 1000px; /* got help from https://stackoverflow.com/questions/4212909/can-css-force-a-line-break-after-each-word-in-an-element*/
+}
+
+.getStartedButton {
+    color: gray;
+    border: 2px solid gray;
+    width: 100px;
+    height: 30px;
+
+}
+
+.imageRowColumn2 {
+    width: 40%;
+}
+
+
+.codePicture {
+    width: 70%;
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+
+.middleSection {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+
+}
+
+.middleSectionRow1 {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: space-around;
+
+}
+
+.middleSectionRow1Column1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 2%;
+
+
+}
+
+.middleSectionRow1Column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+.middleSectionRow2 {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+
+.middleSectionRow2Column1 {
+
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    padding-right: 2%;
+
+}
+
+.middleSectionRow2Column2 {
+
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.middle-img {
+    width: 876px;
+    justify-content: center;
+}
+
+.middleSectionRow3 {
+    width: 100%;
+    display: flex;
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+
+.middleSectionRow3Column1 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.middleSectionRow3Column2 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+}
+
+.middleSectionRow3Column3 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.servicesMiddleSectionRow3 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicesMiddleSectionRow3Column1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+   
+}
+
+
+.servicesMiddleSectionRow3Column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.lastSection {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contactColumn {
+    width: 25%;
+
+}
+
+.companyFacts {
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+    margin-left: 3%;
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+    padding-top: 100px;
+}
+
+
+
+/* tablets */
+@media (max-width: 800px) {
+
+    button {
+        width: 75px;
+        height: 25px;
+        font-size: 50%;
+    }
+
+    .services-header-img {
+        width: 80%;
+    }
+    .firstRow {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .firstRowNav {
+        justify-content: center;
+
+    }
+    .firstRowColumn2 {
+        justify-content: center;
+    }
+
+
+    .imageRowColumn2 {
+        display: none;
+    }
+
+    .imageRowColumn1 {
+        width: 98%;
+        justify-content: center;
+    }
+
+    .middle-img {
+        width: 80%;
+    }
+    .companyFacts {
+
+        margin-left: 8%;
+    }
+}
+/* phones */
+@media (max-width: 500px) {
+
+    .services-header-img {
+        display: none;
+    }
+    .firstRow {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .firstRowNav {
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    ul {
+        flex-direction: column;
+        justify-content: center;
+  
+
+    }
+
+    nav ul li {
+        border-bottom: 1px solid gray;
+        text-align: center;
+        color: gray;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    .firstLi {
+        border-top: 1px solid gray;
+        margin-top: 4%;
+    }
+
+    .middleSectionRow1 {
+        flex-direction: column;
+
+    }
+
+    .middleSectionRow1Column1 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .middleSectionRow2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middleSectionRow2Column1 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;   
+    }
+
+    .middleSectionRow2Column2 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;   
+    }
+
+
+    .middleSectionRow1Column2 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    .middleSectionRow3 {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .middleSectionRow3Column1 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .middleSectionRow3Column2 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }  
+    
+    .middleSectionRow3Column3 {
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .servicesMiddleSectionRow3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+ 
+    }
+
+    .servicesMiddleSectionRow3Column1 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+       
+    }
+    
+    
+    .servicesMiddleSectionRow3Column2 {
+
+        flex-direction: column;   
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+}
